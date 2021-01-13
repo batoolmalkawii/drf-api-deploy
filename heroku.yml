@@ -4,4 +4,4 @@ build:
 release:
   image: web
 run:
-  web: gunicorn library_project.wsgi
+  web: gunicorn libraryapi_project.wsgi
