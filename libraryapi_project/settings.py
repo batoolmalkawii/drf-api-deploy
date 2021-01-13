@@ -85,10 +85,23 @@ WSGI_APPLICATION = 'libraryapi_project.wsgi.application'
 
 DATABASES = {
     'default': {
+        'ENGINE': ('django.db.backends.postgresql'),
+        'NAME':  ('cudivtnx'),
+        'USER': ('cudivtnx'),
+        'PASSWORD': ('9SzhipL1s7_K9Vcv4RrZ9_uOiIn-9plH'),
+        'HOST': ('ziggy.db.elephantsql.com'),
+        'PORT': ('5432'),
+    }
+}
+
+"""
+DATABASES = {
+    'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+"""
 
 
 # Password validation
